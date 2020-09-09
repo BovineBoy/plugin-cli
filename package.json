@@ -5,11 +5,16 @@
   "description": "写npm插件的脚手架",
   "main": "dist/index.js",
   "types": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "engines": {
     "node": ">=8.9.0"
   },
-  "keywords": ["cli", "plugin"],
+  "keywords": [
+    "cli",
+    "plugin"
+  ],
   "scripts": {
     "clean": "del-cli --dot=true \"./dist/**/*\"",
     "build": "yarn clean && yarn build:compile & yarn build:types",
