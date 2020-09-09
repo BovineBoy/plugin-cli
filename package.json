@@ -1,5 +1,6 @@
 {
   "name": "@ordures/plugin-cli",
+  "version": "0.0.0",
   "author": "bovine <vbovine@163.com>",
   "description": "写npm插件的脚手架",
   "main": "dist/index.js",
